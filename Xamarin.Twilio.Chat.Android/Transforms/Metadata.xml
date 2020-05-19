@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <attr path="/api/package[@name='com.twilio.chat']/class[@name='Channel']/method[@name='addListener']" name="eventName">Channel</attr>
+    <attr path="/api/package[@name='com.twilio.chat']/class[@name='ChatClient']/method[@name='setListener']" name="eventName">ChatClient</attr>
+    <attr path="/api/package[@name='com.twilio.chat.internal']/interface[@name='InternalStatusListener']/method[@name='onError']" name="argsType">InternalStatusListenerErrorEventArgs</attr>
+</metadata>

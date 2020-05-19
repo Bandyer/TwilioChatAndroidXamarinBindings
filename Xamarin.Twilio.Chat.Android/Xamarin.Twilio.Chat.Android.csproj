@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProductVersion>8.0.30703</ProductVersion>
+        <SchemaVersion>2.0</SchemaVersion>
+        <Version>4.2.9</Version>
+        <ProjectGuid>{8213B8FF-EBE3-4EB4-B3C2-0741ACF9C1A0}</ProjectGuid>
+        <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+        <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
+        <OutputType>Library</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>Xamarin.Twilio.Chat.Android</RootNamespace>
+        <AssemblyName>Xamarin.Twilio.Chat.Android</AssemblyName>
+        <FileAlignment>512</FileAlignment>
+        <Deterministic>True</Deterministic>
+        <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+        <AndroidClassParser>class-parse</AndroidClassParser>
+        <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
+        <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>portable</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <DebugType>portable</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="Mono.Android" />
+        <Reference Include="System" />
+        <Reference Include="System.Core" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Properties\AssemblyInfo.cs" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Jars\AboutJars.txt" />
+        <None Include="Additions\AboutAdditions.txt" />
+        <None Include="Javadoc\constant-values.html" />
+        <None Include="Javadoc\overview-tree.html" />
+        <None Include="Javadoc\allclasses-noframe.html" />
+        <None Include="Javadoc\serialized-form.html" />
+        <None Include="Javadoc\index-all.html" />
+        <None Include="Javadoc\deprecated-list.html" />
+        <None Include="Javadoc\script.js" />
+        <None Include="Javadoc\stylesheet.css" />
+        <None Include="Javadoc\help-doc.html" />
+        <None Include="Javadoc\allclasses-frame.html" />
+        <None Include="Javadoc\package-list" />
+        <None Include="Javadoc\META-INF\MANIFEST.MF" />
+        <None Include="Javadoc\com\twilio\chat\Channel.SynchronizationStatus.html" />
+        <None Include="Javadoc\com\twilio\chat\Message.html" />
+        <None Include="Javadoc\com\twilio\chat\ChatClient.html" />
+        <None Include="Javadoc\com\twilio\chat\NotificationPayload.html" />
+        <None Include="Javadoc\com\twilio\chat\ProgressListener.html" />
+        <None Include="Javadoc\com\twilio\chat\Disposable.html" />
+        <None Include="Javadoc\com\twilio\chat\Channels.SortCriterion.html" />
+        <None Include="Javadoc\com\twilio\chat\ChannelDescriptor.html" />
+        <None Include="Javadoc\com\twilio\chat\ChatClient.Properties.html" />
+        <None Include="Javadoc\com\twilio\chat\Channels.ChannelBuilder.html" />
+        <None Include="Javadoc\com\twilio\chat\ChannelListener.html" />
+        <None Include="Javadoc\com\twilio\chat\UserDescriptor.html" />
+        <None Include="Javadoc\com\twilio\chat\Member.UpdateReason.html" />
+        <None Include="Javadoc\com\twilio\chat\ChatClient.ConnectionState.html" />
+        <None Include="Javadoc\com\twilio\chat\NotificationPayload.Type.html" />
+        <None Include="Javadoc\com\twilio\chat\User.html" />
+        <None Include="Javadoc\com\twilio\chat\Channel.UpdateReason.html" />
+        <None Include="Javadoc\com\twilio\chat\Channel.ChannelType.html" />
+        <None Include="Javadoc\com\twilio\chat\ChatClientListener.html" />
+        <None Include="Javadoc\com\twilio\chat\ListenerException.html" />
+        <None Include="Javadoc\com\twilio\chat\Channel.html" />
+        <None Include="Javadoc\com\twilio\chat\Members.html" />
+        <None Include="Javadoc\com\twilio\chat\ErrorInfo.html" />
+        <None Include="Javadoc\com\twilio\chat\User.UpdateReason.html" />
+        <None Include="Javadoc\com\twilio\chat\StatusListener.html" />
+        <None Include="Javadoc\com\twilio\chat\ChatClient.LogLevel.html" />
+        <None Include="Javadoc\com\twilio\chat\Message.Media.html" />
+        <None Include="Javadoc\com\twilio\chat\CallbackListener.html" />
+        <None Include="Javadoc\com\twilio\chat\package-frame.html" />
+        <None Include="Javadoc\com\twilio\chat\Users.html" />
+        <None Include="Javadoc\com\twilio\chat\Messages.html" />
+        <None Include="Javadoc\com\twilio\chat\Message.Options.html" />
+        <None Include="Javadoc\com\twilio\chat\package-summary.html" />
+        <None Include="Javadoc\com\twilio\chat\Channels.html" />
+        <None Include="Javadoc\com\twilio\chat\Paginator.html" />
+        <None Include="Javadoc\com\twilio\chat\Member.Type.html" />
+        <None Include="Javadoc\com\twilio\chat\Member.html" />
+        <None Include="Javadoc\com\twilio\chat\Message.Type.html" />
+        <None Include="Javadoc\com\twilio\chat\ChatClient.Properties.Builder.html" />
+        <None Include="Javadoc\com\twilio\chat\Channel.ChannelStatus.html" />
+        <None Include="Javadoc\com\twilio\chat\package-tree.html" />
+        <None Include="Javadoc\com\twilio\chat\Channel.NotificationLevel.html" />
+        <None Include="Javadoc\com\twilio\chat\Message.UpdateReason.html" />
+        <None Include="Javadoc\com\twilio\chat\Channels.SortOrder.html" />
+        <None Include="Javadoc\com\twilio\chat\ChatClient.SynchronizationStatus.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <TransformFile Include="Transforms\Metadata.xml" />
+        <TransformFile Include="Transforms\EnumFields.xml" />
+        <TransformFile Include="Transforms\EnumMethods.xml" />
+    </ItemGroup>
+    <ItemGroup>
+        <JavaDocIndex Include="Javadoc\index.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <LibraryProjectZip Include="Jars\chat-android.aar" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Com.Getkeepsafe.Relinker">
+            <Version>1.3.1</Version>
+        </PackageReference>
+        <PackageReference Include="Xamarin.AndroidX.Annotation">
+            <Version>1.1.0</Version>
+        </PackageReference>
+    </ItemGroup>
+    <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
+    <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
